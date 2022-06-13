@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/tesla-site-project/static/css/main.91cbbc95.css",
+    "main.js": "/tesla-site-project/static/js/main.4d17a319.js",
+    "static/media/Homepage-Model-X-Desktop-LHD.jpg": "/tesla-site-project/static/media/Homepage-Model-X-Desktop-LHD.ac9a6bb03c0b99108228.jpg",
+    "static/media/M3-Homepage-Desktop-LHD.jpg": "/tesla-site-project/static/media/M3-Homepage-Desktop-LHD.a10d246003e3c04fbcc8.jpg",
+    "static/media/HP-SR-Design-D.jpg": "/tesla-site-project/static/media/HP-SR-Design-D.96129eef466df1735604.jpg",
+    "static/media/Homepage-Model-S-Desktop-LHD.jpg": "/tesla-site-project/static/media/Homepage-Model-S-Desktop-LHD.6117383e7be2cd60c6ab.jpg",
+    "static/media/Homepage-Model-X-Mobile-LHD.jpg": "/tesla-site-project/static/media/Homepage-Model-X-Mobile-LHD.6c888b55e451f3d95d13.jpg",
+    "static/media/M3-Homepage-Mobile-LHD.jpg": "/tesla-site-project/static/media/M3-Homepage-Mobile-LHD.a1c0c637c752b5b8b0aa.jpg",
+    "static/media/_25-HP-SolarPanels-D.jpg": "/tesla-site-project/static/media/_25-HP-SolarPanels-D.93aae0e0cbfc153fda03.jpg",
+    "static/media/Homepage-Model-S-Mobile-LHD.jpg": "/tesla-site-project/static/media/Homepage-Model-S-Mobile-LHD.d3249951989c4c01b169.jpg",
+    "static/media/Desktop-ModelY.jpg": "/tesla-site-project/static/media/Desktop-ModelY.35f55a36858d6871a4d6.jpg",
+    "static/media/Mobile-ModelY.jpg": "/tesla-site-project/static/media/Mobile-ModelY.fa90e0db515e30cef054.jpg",
+    "static/media/Accessories-Desktop.jpg": "/tesla-site-project/static/media/Accessories-Desktop.b3dfaf04a46324253af5.jpg",
+    "static/media/_25-HP-SolarPanels-M.jpg": "/tesla-site-project/static/media/_25-HP-SolarPanels-M.2549271c4ec8c5b75a38.jpg",
+    "static/media/HP-SR-Design-M.jpg": "/tesla-site-project/static/media/HP-SR-Design-M.0d7097f2e258be565113.jpg",
+    "static/media/Accessories-Mobile.jpg": "/tesla-site-project/static/media/Accessories-Mobile.bfec7d502be894f26070.jpg",
+    "index.html": "/tesla-site-project/index.html",
+    "static/media/teslaLogo.svg": "/tesla-site-project/static/media/teslaLogo.81f95e8b0e98160d7ca86ce2ce714918.svg",
+    "main.91cbbc95.css.map": "/tesla-site-project/static/css/main.91cbbc95.css.map",
+    "main.4d17a319.js.map": "/tesla-site-project/static/js/main.4d17a319.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91cbbc95.css",
+    "static/js/main.4d17a319.js"
+  ]
+}
