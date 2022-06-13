@@ -1,6 +1,5 @@
 import React from 'react'
 import teslaLogo from '../../assets/teslaLogo.svg';
-import CloseIcon from '@material-ui/icons/Close';
 import './Navbar.css';
 
 const Navbar = ({ sideMenu, setSideMenu }) => {
@@ -48,9 +47,7 @@ const Navbar = ({ sideMenu, setSideMenu }) => {
             <div className="navbar__right">
                 <a href="https://shop.tesla.com/" target="_blank" rel="noopener noreferrer">Shop</a>
                 <a href="/login">Account</a>
-                <button type="button" className='navbar__menu' onClick={() => setSideMenu(!sideMenu)}>
-                    {sideMenu ? <CloseIcon /> : "Menu"}
-                </button>
+                <button type="button" className='navbar__menu' onClick={() => setSideMenu(!sideMenu)}>Menu</button>
             </div>
         </div>
     )

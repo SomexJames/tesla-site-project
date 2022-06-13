@@ -75,7 +75,7 @@ const HomePage = ({ sideMenu, setSideMenu }) => {
     ]
 
     return (
-        <div className="Homepage">
+        <div className={`homepage-${sideMenu}`}>
             <Header sideMenu={sideMenu} setSideMenu={setSideMenu}/>
             {
                 HeroSections.map((props) =>

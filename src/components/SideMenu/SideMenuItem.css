@@ -1,0 +1,18 @@
+.menuItem {
+    text-align: left;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 4.25rem;
+}
+
+.menuItem > h4 {
+    color: #181B21;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.menuItem > h4 {
+    text-transform: capitalize;
+}
