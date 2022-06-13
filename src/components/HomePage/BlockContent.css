@@ -1,0 +1,232 @@
+[class^="block-"] {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  scroll-snap-align: start;
+  transition: all 1s ease;
+}
+
+
+.product {
+  padding-top: 14rem;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 85%;
+}
+  
+  .product__info > h1 {
+    color: #181B21;
+    font-size: 4rem;
+    font-weight: 600;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.7s ease forwards, slideup 0.7s ease forwards;
+    animation-delay: 0.5s;
+    margin-bottom: 0.5rem;
+  }
+
+  .product__info > h4 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #181B21;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s ease forwards, slideup 1s ease forwards;
+    animation-delay: 1s;
+    margin-top: 0;
+  }
+
+  .product__info > h4 > a {
+    box-shadow: 0 1px 0 0 currentColor;
+    cursor: pointer;
+    padding: 0.2rem;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+    background-color: transparent;
+    border: 0;
+    box-shadow: 0 1px 0 0 currentColor;
+    color: #181B21;
+    padding: 0;
+    transition: box-shadow .33s cubic-bezier(0.5,0,0,0.75);
+  }
+
+  .product__info > h4 > a:hover {
+    box-shadow: 0 2px 0 0 currentColor;
+  }
+
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+  .buttons .product__buttons {
+    justify-content: center;
+    display: flex;
+    gap: 2rem;
+  }
+
+  .product__buttons > button {
+    cursor: pointer;
+    border: none;
+    display: block;
+    width: 26rem;
+    padding: 1.2rem 0 1.2rem 0;
+    border-radius: 5rem;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: transparent;
+    outline: transparent;
+  }
+
+    .button__left {
+      background-color: #333333;
+      color: white;
+      opacity: 0;
+      transform: translateX(-5rem);
+      animation: slideInLeft 1s ease forwards;
+      animation-delay: 1s;
+    }
+
+    .button__right {
+      background-color: white;
+      color: black;
+      opacity: 0;
+      transform: translateX(5rem);
+      animation: slideInRight 1s ease forwards;
+      animation-delay: 1s;
+    }
+
+
+@media (max-width: 600px) {
+  .product {
+    max-width: 80%;
+    height: 85%;
+    padding-top: 12rem;
+  }
+
+  .product__info > h1 {
+    margin-bottom: 1rem;
+  }
+
+  .buttons, .product__buttons > button {
+    align-self: center;
+    width: 100%;
+  }
+
+  .button__left, .button__right {
+    transform: translateY(20px);
+    animation: slideup 1s ease forwards;
+    animation-delay: 1s;
+  }
+
+  .buttons .product__buttons {
+    flex-direction: column;
+  }
+}
+
+
+.block-1 {
+  background-image: url(../../assets/M3-Homepage-Desktop-LHD.jpg);
+}
+
+.block-2 {
+  background-image: url(../../assets/Desktop-ModelY.jpg);
+}
+
+.block-3 {
+  background-image: url(../../assets/Homepage-Model-S-Desktop-LHD.jpg);
+}
+
+.block-4 {
+  background-image: url(../../assets/Homepage-Model-X-Desktop-LHD.jpg);
+}
+
+.block-5 {
+  background-image: url(../../assets/_25-HP-SolarPanels-D.jpg);
+}
+
+.block-6 {
+  background-image: url(../../assets/HP-SR-Design-D.jpg);
+}
+
+.block-7 {
+  background-image: url(../../assets/Accessories-Desktop.jpg);
+}
+
+@media (max-width: 600px) {
+  .block-1 {
+    background-image: url(../../assets/M3-Homepage-Mobile-LHD.jpg);
+  }
+
+  .block-2 {
+    background-image: url(../../assets/Mobile-ModelY.jpg);
+  }
+
+  .block-3 {
+    background-image: url(../../assets/Homepage-Model-S-Mobile-LHD.jpg);
+  }
+
+  .block-4 {
+    background-image: url(../../assets/Homepage-Model-X-Mobile-LHD.jpg);
+  }
+
+  .block-5 {
+    background-image: url(../../assets/_25-HP-SolarPanels-M.jpg);
+  }
+
+  .block-6 {
+    background-image: url(../../assets/HP-SR-Design-M.jpg);
+  }
+
+  .block-7 {
+    background-image: url(../../assets/Accessories-Mobile.jpg);
+  }
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideup {
+  0% {
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.9;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.8;
+    transform: translateX(0px);
+  }
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+/*
+  Font selection:
+    https://www.quora.com/What-typeface-font-does-Apple-Tesla-used-on-their-website
+      Couldn't find Gotham on Google Fonts
+    https://fontsplugin.com/google-fonts-gotham/
+      Looked up fonts similar to Gotham
+    https://fonts.googleapis.com/css2?family=Montserrat&display=swap
+      Chose Montserrat
+*/
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+button, a {
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 60%;
+}
