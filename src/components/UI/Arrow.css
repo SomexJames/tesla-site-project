@@ -2,7 +2,6 @@
   height: 4rem;
   margin-top: 5rem;
   margin-bottom: 1rem;
-  cursor: pointer;
   opacity: 0;
   transform: translateY(-20px);
   animation: fadeDown 1s ease forwards;
@@ -13,6 +12,7 @@
   height: 80%;
   animation: bounceDown infinite 1.75s;
   animation-delay: 2s;
+  cursor: pointer;
 }
 
 .blankArrow {
