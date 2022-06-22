@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tesla-site-project/static/css/main.3a4149e6.css",
+    "main.css": "/tesla-site-project/static/css/main.776dca24.css",
     "main.js": "/tesla-site-project/static/js/main.6b0288f4.js",
     "static/media/Homepage-Model-X-Desktop-LHD.jpg": "/tesla-site-project/static/media/Homepage-Model-X-Desktop-LHD.ac9a6bb03c0b99108228.jpg",
     "static/media/M3-Homepage-Desktop-LHD.jpg": "/tesla-site-project/static/media/M3-Homepage-Desktop-LHD.a10d246003e3c04fbcc8.jpg",
@@ -19,11 +19,11 @@
     "static/media/Locale.svg": "/tesla-site-project/static/media/Locale.c00ed53883a345f01a3df899316b7290.svg",
     "index.html": "/tesla-site-project/index.html",
     "static/media/teslaLogo.svg": "/tesla-site-project/static/media/teslaLogo.81f95e8b0e98160d7ca86ce2ce714918.svg",
-    "main.3a4149e6.css.map": "/tesla-site-project/static/css/main.3a4149e6.css.map",
+    "main.776dca24.css.map": "/tesla-site-project/static/css/main.776dca24.css.map",
     "main.6b0288f4.js.map": "/tesla-site-project/static/js/main.6b0288f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a4149e6.css",
+    "static/css/main.776dca24.css",
     "static/js/main.6b0288f4.js"
   ]
 }
