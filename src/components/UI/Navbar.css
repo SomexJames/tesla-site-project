@@ -69,9 +69,9 @@
 
 @media (max-width: 1200px) { /*Tested from Inspect element*/
   .navbar__center {
-    visibility: hidden;
+    display: none;
   }
   .navbar__right > a {
-    visibility: hidden;
+    display: none;
   }
 }
